@@ -13,7 +13,7 @@ let color_final     = document.querySelector("#color_final");
 
 boton_calcular.addEventListener("click", function(){
     let valor_total = cantidad.value * precio;
-    total.innerHTML = valor_total;
+    total.innerHTML = '$'+ valor_total.toLocaleString('cl-CL');
     cantidad_final.innerHTML = cantidad.value;
     color_final.style.backgroundColor = color.value;
 })
