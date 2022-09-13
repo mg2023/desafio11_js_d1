@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intro Javascript M3</title>
+    <title>Intro Javascript M3 D1</title>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/estilos.css" />
   </head>
@@ -18,7 +18,7 @@
           </div>
           <div id="contenedor_formulario">
             <div>
-              <input type="number" id="cantidad" name="cantidad" min="1"/>
+              <input type="number" id="cantidad" name="cantidad" min="1" placeholder="Cantidad" style="height: 20px; "/>
             </div>
             <div>
               <input type="color" id="color" name="color"/>
@@ -34,9 +34,12 @@
         </article>
 
         <section>
-          <div>Total:     <span id="total"></span></div>
-          <div>Cantidad:  <span id="cantidad_final"></span></div>
-          <div>Color:     <p  id="color_final"></p></div>
+          <div>Total:         <span id="total">         </span></div>
+          <div>Cantidad:      <span id="cantidad_final"></span></div>
+          <div id="resultado_de_color">
+            <div>Color:  </div>
+            <div id="color_final"></div>
+          </div>
         </section>
       </section>
     </main>
